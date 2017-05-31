@@ -1,0 +1,140 @@
+/* WIREFRAME TESTING */
+
+/* This section will create dashed borders around all elements, uncomment the below code when building layout */
+
+:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* END WIREFRAME TESTING */
+
+
+/* GLOBAL STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+body {
+  color: #222;
+  margin: 0 3vw;
+  background-color: tomato;
+  /*Apply Google Font*/
+  font-family: 'Lora', serif;
+
+  /* Full background */
+  /*background: url('../img/unsplash01.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+  /* Default Google font stylings for all H tags */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  float: left;
+}
+
+.header img {
+  float: left;
+  border-radius: 100%;
+  width: 50px;
+  margin-right: 3vw;
+}
+
+h3 {
+  float: left;
+}
+
+.nav {
+  clear: both;
+}
+
+ul {
+  width: 100%;
+  background-color: mistyrose;
+}
+li {
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  width: 20%;
+  margin: 0 1% 0 1%;
+  white-space: pre-wrap;
+}
+.col-2, .col-3 {
+  display: none;
+}
+
+/*BODY AREA*/
+
+.text-area p{
+  padding-bottom: 1vh;
+}
+
+h2 {
+  margin: 1vh 0;
+}
+
+#circle {
+  border-radius: 100%;
+  margin: 3vh auto;
+  display: block;
+  max-width: 60%;
+}
+
+.col-1 img {
+  max-width: 100%;
+  margin-bottom: 5vh;
+}
+
+ /* Clearfix */
+
+.clearfix {
+content: "";
+display: table;
+clear: both;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Large Devices, Wide Screens */
+ @media only screen and (max-width : 1200px) {
+
+ }
+
+ /* Medium Devices */
+ @media only screen and (max-width : 992px) {
+
+ }
+
+ /* Small Devices, Tablets */
+ @media only screen and (max-width : 768px) {
+
+ }
+
+ /* Extra Small Devices, Phones */
+ @media only screen and (max-width : 480px) {
+
+ }
