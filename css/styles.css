@@ -120,9 +120,86 @@ clear: both;
 /* MEDIA QUERIES */
 
 /* Large Devices, Wide Screens */
- @media only screen and (max-width : 1200px) {
+ @media only screen and (min-width : 600px) {
+   body {
+     background-color: whitesmoke;
+   }
+   .nav {
+     background-color: red;
+     float: right;
+     width: 50vw;
+     clear: none;
+   }
+   .text-area {
+     clear: both;
+   }
+   .text-content {
+     display: block;
+     margin-top: 2.5vh;
+     padding-right: 1.5vh;
+     float: left;
+     width: 60%;
+   }
+   #circle {
+     float: right;
+     margin: 2vh auto;
+     display: block;
+     max-width: 40%;
+   }
 
+.col-1 {
+  width: 100%;
+  clear: both;
+}
+
+.col-1 img {
+   max-width: 32.8%;
+   margin-bottom: 1vh;
  }
+
+.col-2, .col-3 {
+  clear: both;
+  float: none;
+  display: block;
+}
+
+.col-2 {
+  float: left;
+  width: 50%;
+}
+
+.col-2 h3, .col-3 h3 {
+  float: none;
+}
+
+.col-2 p, .col-3 p {
+  display: block;
+}
+
+/*.col-2-content {
+  height: 30vh;
+}*/
+
+.col-3 {
+  clear: none;
+  float: right;
+  width: 50%;
+}
+
+.col-3-text {
+  float: right;
+  width: 90%;
+}
+
+.col-3-content {
+  clear: both;
+  width: 100%;
+}
+
+.col-3-content img {
+  float: left;
+  height: 3vh;
+}
 
  /* Medium Devices */
  @media only screen and (max-width : 992px) {
